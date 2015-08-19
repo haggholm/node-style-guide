@@ -1,3 +1,8 @@
+```bash
+# Dump all the config files into cwd
+wget -qO- https://github.com/haggholm/node-style-guide/archive/master.zip | bsdtar -xvf- --strip-components=1 --exclude=Readme.md
+```
+
 # Node.js Style Guide
 
 This is a guide for writing consistent and aesthetically pleasing node.js code.
